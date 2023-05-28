@@ -3,4 +3,4 @@
  
  
 ### MAY 29, 2023
- The [Maths Quiz](/Maths_Equation) filter is uploaded to the project.
+ - The [Maths Quiz](/Maths_Equation) filter is uploaded to the project.
