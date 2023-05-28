@@ -4,6 +4,14 @@ import os
 import time
 
 
+def check_dir():
+    '''Checks if the Captured Video directory exists'''
+
+    path = os.path.abspath(os.path.join(os.path.dirname(__file__))) + '\\Captured Video\\'
+    if not os.path.exists(path):
+        os.makedirs(path)
+
+
 def get_num() -> int:
     '''Gets the no. of the last recorded file'''
 
@@ -172,8 +180,9 @@ def main():
     first_launch_time = time.time()
     curr = time.time()
 
+    check_dir() # Checks for the directory
     i = get_num()
-    fps = 30
+    fps = 20
     save_path = os.path.join(os.path.abspath(os.path.join(os.path.dirname(__file__))) + '\\Captured Video\\', f'record_{i+1}.mp4')
     output = cv2.VideoWriter(save_path, vid_cod, fps, (640,480))
 
