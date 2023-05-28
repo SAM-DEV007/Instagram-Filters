@@ -8,3 +8,6 @@
   Make sure to have a webcam. The video displayed will also be captured and kept in `Captured Video` folder (it will be created after first execution).
   It uses face recognition to get your face and display the text. The face can be moved left or right to answer the question. There will be 5 questions asked.
   At the end, the correct amount of answers will be displayed!
+  
+  
+  The window can be closed using Esc, Q or the close button.
