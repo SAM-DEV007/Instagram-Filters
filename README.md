@@ -3,4 +3,4 @@
  
  
 ### MAY 29, 2023
- The Maths Quiz filter is uploaded to the project. It is named under Maths_Equation.
+ The [Maths Quiz](/Maths_Equation) filter is uploaded to the project. It is named under Maths_Equation.
