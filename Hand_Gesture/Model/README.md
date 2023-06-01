@@ -6,4 +6,4 @@
   The model consists of a single `Input` layer, with three `Hidden` layers and a single `Output` layer. The output optimizer is
   `softmax`, and loss function is `sparse_categorical_crossentropy`.
   
-  [Train_Model.py](/Hand_Gesture/Model/Train_Model.py) is used here to train, save and convert the model.
+  [Train_Model.py](Train_Model.py) is used here to train, save and convert the model.
