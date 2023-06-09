@@ -6,3 +6,6 @@
 
 ### Hand_Gesture
  - The [Hand Gesture](/Hand_Gesture) filter is uploaded to the project.
+
+### Flappy_Bird
+ - The [Flappy Bird](/Flappy_Bird) filter is uploaded to the project.
