@@ -28,6 +28,8 @@ class predict():
 
         result = self.interpreter.get_tensor(output_details_tensor_index)
         result_index = np.argmax(np.squeeze(result))
+        
+        if np.squeeze(result)[result_index] < 0.6: result_index = 3
 
         return result_index
 
