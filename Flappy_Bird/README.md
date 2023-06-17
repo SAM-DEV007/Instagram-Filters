@@ -9,4 +9,4 @@
   The window can be closed via `Esc`, `Q` or the Close button.
   
 # Installation
-  he required libraries are mentioned in `requirements.txt` file. It can be installed via `pip install -r \path\to\requirements.txt`.
+  The required libraries are mentioned in `requirements.txt` file. It can be installed via `pip install -r \path\to\requirements.txt`.
